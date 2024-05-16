@@ -3,6 +3,18 @@
 
 <body>
   <p>
+    <b>Docker</b>
+    <ul>
+      <li>Move docker images between machines: docker save -o your_image.tar your_image_name; Transfer the file your_image.tar to the other machine; docker load -i your_image.tar . Link: <a>https://stackoverflow.com/a/23938978/6311511</a></li>
+    </ul>
+  </p>
+  <p>
+    <b>Image processing</b>
+    <ul>
+      <li>dcm2nii parameters: <a>https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#General_Usage</a></li>
+    </ul>
+  </p>
+  <p>
     <b>MacOS M1</b>
     <ul>
       <li> How to install node v14: https://devzilla.io/using-nodejs-14-with-mac-silicon-m1 </li>
@@ -18,6 +30,7 @@
       
       <li>Check if file or folder exists: import os; os.path.exists({path}). Link <a>https://stackoverflow.com/questions/8933237/how-do-i-check-if-a-directory-exists-in-python</a></li>
       <li>Create directory: os.mkdir(path) . Link <a>https://docs.python.org/2/library/os.html#os.mkdir</a></li>
+      <li>Get the name of file given the path: import os; print(os.path.basename(your_path)). Link: <a>https://stackoverflow.com/questions/8384737/extract-file-name-from-path-no-matter-what-the-os-path-format</a></li>
       
       <li>Pandas - Column to List: columnAsList = df['ColumnName'].tolist()</li>
       <li>Pandas - Column unique values: df['column_name'].unique() . Link <a>https://www.projectpro.io/recipes/list-unique-values-in-pandas-dataframe</a></li>
@@ -32,12 +45,6 @@
       <li>Pandas - Iterate over a Dataframe: for index, row in df.iterrows(): print(row['name'], row['age']) . Link: <a>https://saturncloud.io/blog/how-to-iterate-through-specific-columns-and-rows-in-pandas-dataframe-to-perform-a-check/#:~:text=Pandas%20provides%20a%20simple%20and,operations%20using%20functions%20or%20libraries.</a></li>
       <li>Pandas - Replace value in column: df['City'].replace('New York', 'NY', inplace=True) . Link: <a>https://favtutor.com/articles/pandas-replace-column-values/</a></li>
       
-    </ul>
-  </p>
-  <p>
-    <b>Image processing</b>
-    <ul>
-      <li>dcm2nii parameters: <a>https://www.nitrc.org/plugins/mwiki/index.php/dcm2nii:MainPage#General_Usage</a></li>
     </ul>
   </p>
   <p>

@@ -31,6 +31,8 @@
       <li>Check if file or folder exists: import os; os.path.exists({path}). Link <a>https://stackoverflow.com/questions/8933237/how-do-i-check-if-a-directory-exists-in-python</a></li>
       <li>Create directory: os.mkdir(path) . Link <a>https://docs.python.org/2/library/os.html#os.mkdir</a></li>
       <li>Get the name of file given the path: import os; print(os.path.basename(your_path)). Link: <a>https://stackoverflow.com/questions/8384737/extract-file-name-from-path-no-matter-what-the-os-path-format</a></li>
+
+      <li>Deep merge dictionaries. Link: <a>https://github.com/toumorokoshi/deepmerge/tree/master</a></li>
       
       <li>Pandas - Column to List: columnAsList = df['ColumnName'].tolist()</li>
       <li>Pandas - Column unique values: df['column_name'].unique() . Link <a>https://www.projectpro.io/recipes/list-unique-values-in-pandas-dataframe</a></li>
@@ -44,6 +46,9 @@
       <li>Pandas - Convert index to column: df = df.reset_index() . Link: <a>https://stackoverflow.com/questions/20461165/how-to-convert-index-of-a-pandas-dataframe-into-a-column</a></li>
       <li>Pandas - Iterate over a Dataframe: for index, row in df.iterrows(): print(row['name'], row['age']) . Link: <a>https://saturncloud.io/blog/how-to-iterate-through-specific-columns-and-rows-in-pandas-dataframe-to-perform-a-check/#:~:text=Pandas%20provides%20a%20simple%20and,operations%20using%20functions%20or%20libraries.</a></li>
       <li>Pandas - Replace value in column: df['City'].replace('New York', 'NY', inplace=True) . Link: <a>https://favtutor.com/articles/pandas-replace-column-values/</a></li>
+      <li>Pandas - Drop rows: df = df.drop(df[df.score < 50].index) . Link: <a>https://stackoverflow.com/questions/13851535/how-to-delete-rows-from-a-pandas-dataframe-based-on-a-conditional-expression</a></li>
+      <li>Pandas - Export to excel multiple sheets: with pd.ExcelWriter('output.xlsx') as writer:  df1.to_excel(writer, sheet_name='Sheet_name_1'); df2.to_excel(writer, sheet_name='Sheet_name_2') . Link: <a>https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.to_excel.html</a></li>
+      <li>Pandas - Read excel: sheet_to_df_map = pd.read_excel(file_name, sheet_name=None) . Link: <a>https://stackoverflow.com/questions/26521266/using-pandas-to-pd-read-excel-for-multiple-worksheets-of-the-same-workbook</a></li>
       
     </ul>
   </p>
